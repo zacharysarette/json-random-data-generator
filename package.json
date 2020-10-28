@@ -1,0 +1,25 @@
+{
+  "name": "jsondatagenerator",
+  "version": "1.0.0",
+  "description": "a json data generator",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharysarette/json-data-generator.git"
+  },
+  "keywords": [
+    "generator"
+  ],
+  "author": "Zachary W Sarette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacharysarette/json-data-generator/issues"
+  },
+  "homepage": "https://github.com/zacharysarette/json-data-generator#readme",
+  "dependencies": {
+    "yargs": "^16.1.0"
+  }
+}

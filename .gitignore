@@ -1,0 +1,10 @@
+#node
+node_modules/
+
+exports/
+
+!exampleData.json
+
+configs/
+
+!exampleConfig.json
