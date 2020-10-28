@@ -4,7 +4,7 @@ var params = require("./arguments");
 var fs = require("fs");
 var utils = require("./utils");
 
-var theFields = require("./configs/" + params.c).theFields; // needed
+var theFields = require("../configs/" + params.c).theFields; // needed
 var getTheValues = require("./theValues"); // needed
 
 console.log("Going to write into existing file");
