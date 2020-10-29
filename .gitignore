@@ -1,6 +1,8 @@
 #node
 node_modules/
 
+.vscode/
+
 exports/
 
 !exampleData.json
@@ -8,3 +10,6 @@ exports/
 configs/
 
 !exampleConfig.json
+
+#Jest
+coverage/

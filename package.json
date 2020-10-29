@@ -4,7 +4,9 @@
   "description": "a json data generator",
   "main": "./src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:coverage":"jest --coverage",
+    "lint": "standard --fix",
     "generate": "node ./src/main.js"
   },
   "repository": {
@@ -22,5 +24,9 @@
   "homepage": "https://github.com/zacharysarette/json-data-generator#readme",
   "dependencies": {
     "yargs": "^16.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "standard": "^16.0.0"
   }
 }
