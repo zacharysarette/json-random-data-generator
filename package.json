@@ -28,5 +28,8 @@
   "devDependencies": {
     "jest": "^26.6.1",
     "standard": "^16.0.0"
+  },
+  "standard": {
+    "envs": ["jest"]
   }
 }
