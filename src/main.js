@@ -49,12 +49,4 @@ fs.writeFile(fileName, d, function (err) {
     return console.error(err);
   }
   console.log("Data written successfully!");
-  console.log("Let's read newly written data");
-  // Read the newly written file and print all of its content on the console
-  fs.readFile(fileName, function (err, data) {
-    if (err) {
-      return console.error(err);
-    }
-    console.log("Asynchronous read: " + fileName);
-  });
 });
