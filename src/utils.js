@@ -2,8 +2,12 @@ module.exports = {
   wrapStringInQuotes: function (text) {
     return '"' + text + '"';
   },
-  rand: function (bottom, top) {
-    return Math.floor(Math.random() * top + bottom);
+  rand: function (bottom, top, addFactor = 0) {
+    if (bottom === 0) addFactor = 1;
+    return (
+      Math.floor(Math.random() * (top + addFactor) + (bottom + addFactor)) -
+      addFactor
+    );
   },
   getRandFromArray: function (arr) {
     return arr[this.rand(0, arr.length - 1)];
@@ -13,6 +17,9 @@ module.exports = {
       func(...params);
       if (n !== 1) callBetween();
     }
+  },
+  sum: function (a, b) {
+    return a + b;
   },
   getRandomDate: function (years) {
     return this.printRandDate(this.getRandFromArray(years), this.rand(1, 12));
@@ -41,5 +48,11 @@ module.exports = {
   },
   getRandomSign: function () {
     return this.getRandFromArray([1, -1, 0]);
+  },
+  getSequence: function (additor, nTimes, base = 0) {
+    if (nTimes > 0) {
+      this.getSequence(additor + base, nTimes - 1, base);
+    }
+    return;
   },
 };
