@@ -130,6 +130,6 @@ test('Should return 3', () => {
   expect(sum).toStrictEqual(5)
 })
 
-test('Should return null', () => {
+test('Should return undefined', () => {
   expect(utils.getMonthEnd(0, 0)).toBeUndefined()
 })
