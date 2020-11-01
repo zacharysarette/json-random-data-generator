@@ -18,9 +18,9 @@ const processType = {
   }
 }
 
-module.exports = function (data, vals = []) {
+module.exports = function (data, values = []) {
   for (let i = data.length - 1; i > -1; i--) {
-    vals.unshift(processType[data[i].type](data[i].values))
+    values.unshift(processType[data[i].type](data[i].values))
   }
-  return vals
+  return values
 }

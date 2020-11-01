@@ -14,7 +14,7 @@ module.exports = require('yargs')
   .option('n', {
     alias: 'numberOfObjectsToGenerate',
     describe: 'The number of objects to generate in the json array',
-    demandOption: 'Number of objects to generate is requried',
+    demandOption: 'Number of objects to generate is required',
     type: 'number',
     nargs: 1
   })

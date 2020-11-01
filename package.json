@@ -5,7 +5,7 @@
   "main": "./src/main.js",
   "scripts": {
     "test": "jest",
-    "test:coverage":"jest --coverage",
+    "test:coverage": "jest --coverage",
     "lint": "standard --fix",
     "generate": "node ./src/main.js"
   },
@@ -30,6 +30,8 @@
     "standard": "^16.0.0"
   },
   "standard": {
-    "envs": ["jest"]
+    "envs": [
+      "jest"
+    ]
   }
 }
