@@ -2,13 +2,13 @@ const utils = require('./utils')
 
 const processType = {
   date: function (element) {
-    return utils.getRandomDate(element)
+    return utils.wrapStringInQuotes(utils.getRandomDate(element))
   },
   arr: function (element) {
-    return utils.getRandFromArray(element)
+    return utils.checkAndWrap(utils.getRandFromArray(element))
   },
   val: function (element) {
-    return element[0]
+    return utils.checkAndWrap(element[0])
   },
   num: function (element) {
     return utils.rand(element[0], element[1])

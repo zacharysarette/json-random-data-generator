@@ -2,6 +2,9 @@ module.exports = {
   wrapStringInQuotes: function (text) {
     return '"' + text + '"'
   },
+  checkAndWrap: function (element) {
+    return typeof element === 'string' ? this.wrapStringInQuotes(element) : element
+  },
   rand: function (bottom, top, addFactor = 0, randFactor = Math.random()) {
     if (bottom === 0) addFactor = 1
     return (
