@@ -1,6 +1,8 @@
 # Todo
 
-- Use builder pattern
+- Use builder pattern -- Done
+
+- Clean up main file and put string building and file writing in separate files
 
 - Write out tests
 
