@@ -2,7 +2,7 @@
 
 - Use builder pattern -- Done
 
-- Clean up main file and put string building and file writing in separate files
+- Clean up main file and put string building and file writing in separate files -- Done
 
 - Write out tests
 

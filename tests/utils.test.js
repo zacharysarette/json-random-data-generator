@@ -33,41 +33,6 @@ test('should be random from an array', () => {
   expect(testArray).toContain(randomElement)
 })
 
-test('should run x times', () => {
-  let j = 0
-  const addJ = () => { j += 1 }
-  utils.doXTimes(addJ, 3)
-  expect(j).toBe(3)
-})
-
-test('should return 0', () => {
-  let j = 0
-  const addJ = () => { j += 1 }
-  utils.doXTimes(addJ, -1)
-  expect(j).toBe(0)
-})
-
-test('should return 5', () => {
-  let j = 0
-  const addJ = (adder = 1) => { j += adder }
-  utils.doXTimes(addJ, 3, [2], addJ)
-  expect(j).toBe(8)
-})
-
-test('should return 5', () => {
-  let j = 0
-  const addJ = (adder = 1) => { j += adder }
-  utils.doXTimes(addJ, 3, [2])
-  expect(j).toBe(6)
-})
-
-test('should return 5', () => {
-  const j = 0
-  const addJ = (adder = 1) => { return j }
-  utils.doXTimes(addJ, 3, [2], addJ)
-  expect(j).toBe(0)
-})
-
 test('should add to 2 and 2 to 4', () => {
   expect(utils.sum(2, 2)).toBe(4)
 })

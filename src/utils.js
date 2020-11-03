@@ -15,16 +15,6 @@ module.exports = {
   getRandFromArray: function (arr) {
     return arr[this.rand(0, arr.length - 1)]
   },
-  doXTimes: function (
-    func,
-    n,
-    params = [],
-    callBetween = function () {}) {
-    for (n; n > 0; n--) {
-      func(...params)
-      if (n !== 1) callBetween()
-    }
-  },
   sum: function (a, b) {
     return a + b
   },

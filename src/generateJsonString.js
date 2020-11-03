@@ -3,8 +3,8 @@ module.exports = class GenerateJsonString {
     this.jsonString = ''
   }
 
-  addStrings (strings) {
-    this.jsonString += strings
+  start (objectArrayName) {
+    this.jsonString += `{\n"${objectArrayName}":[\n`
     return this
   }
 
@@ -14,5 +14,9 @@ module.exports = class GenerateJsonString {
     }
     this.jsonString = generateObject(fields, this.jsonString, true)
     return this
+  }
+
+  end () {
+    this.jsonString += ']\n}\n'
   }
 }
