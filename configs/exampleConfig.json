@@ -4,15 +4,15 @@
       "name": "donutName",
       "type": "arr",
       "values": [
-        "Cinamon",
-        "Bavarian Kreme",
+        "Cinnamon",
+        "Bavarian Cream",
         "Toasted Coconut",
         "Jelly Stick",
         "Powdered Sugar",
         "Old Fashioned Cake",
         "Vanilla Frosted with Sprinkles",
         "Original Stick",
-        "Boston Kreme",
+        "Boston Cream",
         "Jelly",
         "Butternut",
         "Double Chocolate",
@@ -40,7 +40,7 @@
         "It was okay... I guess...",
         "Delicious!",
         "I want my money back.",
-        "Can I have the recepie?",
+        "Can I have the recipe?",
         "I ate 23 of these, and then I got sick..."
       ]
     },

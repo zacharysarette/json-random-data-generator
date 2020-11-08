@@ -14,7 +14,7 @@ module.exports = function (valueType) {
       return utils.rand(element[0], element[1])
     },
     numSigned: function (element) {
-      return this.num(element) * utils.getRandomSign()
+      return utils.rand(element[0], element[1]) * utils.getRandomSign()
     }
   }[valueType]
 }
