@@ -5,6 +5,7 @@ module.exports = function (fileName, jsonString) {
     if (err) {
       return console.error(err)
     }
-    console.log('Data written successfully!')
+    console.log(require('chalk').green.inverse(
+      'Data written successfully!'))
   })
 }

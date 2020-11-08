@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/zacharysarette/json-data-generator#readme",
   "dependencies": {
+    "chalk": "^4.1.0",
     "yargs": "^16.1.0"
   },
   "devDependencies": {
