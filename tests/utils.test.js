@@ -1,5 +1,9 @@
 const utils = require('../src/utils')
 
+test('should return number', () => {
+  expect(utils.checkAndWrap(0)).toBe(0)
+})
+
 test('should return wrapped quote', () => {
   expect(utils.wrapStringInQuotes('text')).toBe('"text"')
 })
@@ -96,5 +100,6 @@ test('Should return 3', () => {
 })
 
 test('Should return undefined', () => {
-  expect(utils.getMonthEnd(0, 0)).toBeUndefined()
+  const badMonth = () => utils.getMonthEnd(0, 0)
+  expect(badMonth).toThrowError(new Error('Invalid month, expected 1 - 12.'))
 })

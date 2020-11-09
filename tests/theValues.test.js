@@ -1,4 +1,4 @@
-const theValues = require('../src/theValues')
+const theValues = require('../src/getValues')
 const mockValues = [
   {
     name: 'donutName',
