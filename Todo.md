@@ -4,7 +4,7 @@
 
 - Clean up main file and put string building and file writing in separate files -- Done
 
-- Write out tests
+- Write out tests -- in progress
 
 - Publish to NPM as command line tool
 
