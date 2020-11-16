@@ -4,7 +4,7 @@ module.exports = function ({ configFile, objectArrayName, numberOfObjects }) {
   const theFields = require('../configs/' + configFile).theFields
 
   return new GenerateJsonString()
-    .start(objectArrayName)
-    .generateAndAddObjects(numberOfObjects, theFields, generateObject)
+    .start({ objectArrayName })
+    .generateAndAddObjects({ numberOfObjects, fields: theFields, generateObject })
     .end().jsonString
 }

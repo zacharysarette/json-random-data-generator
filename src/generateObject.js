@@ -1,4 +1,4 @@
-module.exports = function (fields, objectString, last = false) {
+module.exports = function ({ fields, objectString, last = false }) {
   const values = require('./getValues')(fields)
   if (values.length !== fields.length) throw new Error('Unexpected Length for values and fields')
   objectString += '{'

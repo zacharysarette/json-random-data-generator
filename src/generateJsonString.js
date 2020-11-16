@@ -3,16 +3,16 @@ module.exports = class GenerateJsonString {
     this.jsonString = ''
   }
 
-  start (objectArrayName) {
+  start ({ objectArrayName }) {
     this.jsonString += `{\n"${objectArrayName}":[\n`
     return this
   }
 
-  generateAndAddObjects (numberOfTimes, fields, generateObject) {
-    for (numberOfTimes; numberOfTimes > 1; numberOfTimes--) {
-      this.jsonString = generateObject(fields, this.jsonString)
+  generateAndAddObjects ({ numberOfObjects, fields, generateObject }) {
+    for (numberOfObjects; numberOfObjects > 1; numberOfObjects--) {
+      this.jsonString = generateObject({ fields, objectString: this.jsonString })
     }
-    this.jsonString = generateObject(fields, this.jsonString, true)
+    this.jsonString = generateObject({ fields, objectString: this.jsonString, last: true })
     return this
   }
 
