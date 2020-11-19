@@ -12,8 +12,16 @@ module.exports = class Utils {
   static rand (bottom, top, addFactor = 0, randFactor = Math.random()) {
     if (bottom === 0) addFactor = 1
     return (
-      Math.floor(randFactor * (top + addFactor) + (bottom + addFactor)) -
+      Math.floor(randFactor * (top - bottom + addFactor)) +
+      (bottom + addFactor) -
       addFactor
+    )
+  }
+
+  static randFloat (bottom, top, addFactor = 0, randFactor = Math.random()) {
+    if (bottom === 0) addFactor = 1
+    return (
+      randFactor * (top - bottom + addFactor) + (bottom + addFactor) - addFactor
     )
   }
 

@@ -20,6 +20,12 @@ test('should return 0 or 1', () => {
   expect(randNum).toBeLessThanOrEqual(1)
 })
 
+test('Should return between 60 and 100', () => {
+  const randNum = utils.rand(60, 100)
+  expect(randNum).toBeGreaterThanOrEqual(60)
+  expect(randNum).toBeLessThanOrEqual(100)
+})
+
 test('should return number between 0 and 1', () => {
   const randNum = utils.rand(0, 1)
   expect(randNum).toBeGreaterThanOrEqual(0)

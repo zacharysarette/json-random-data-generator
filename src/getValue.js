@@ -13,6 +13,9 @@ module.exports = function (valueType) {
     num: function (element) {
       return utils.rand(element[0], element[1])
     },
+    numFloat: function (element) {
+      return utils.randFloat(element[0], element[1])
+    },
     numSigned: function (element) {
       return utils.rand(element[0], element[1]) * utils.getRandomSign()
     }
