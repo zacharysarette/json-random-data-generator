@@ -38,16 +38,18 @@ module.exports = class Utils {
     randomMonth = Utils.rand({ bottom: 1, top: 12 }),
     day = undefined
   ) {
-    return Utils.printRandDate({ year: Utils.getRandFromArray({ arr: years }), month: randomMonth, day })
+    return Utils.printRandDate({
+      year: Utils.getRandFromArray({ arr: years }),
+      month: randomMonth,
+      day
+    })
   }
 
-  static printRandDate (
-    {
-      year,
-      month,
-      day = Utils.rand({ bottom: 1, top: Utils.getMonthEnd({ month, year }) })
-    }
-  ) {
+  static printRandDate ({
+    year,
+    month,
+    day = Utils.rand({ bottom: 1, top: Utils.getMonthEnd({ month, year }) })
+  }) {
     return `${year}-${month}-${day}`
   }
 
@@ -73,7 +75,11 @@ module.exports = class Utils {
 
   static getSequenceEnd ({ numberToAdd, nTimes, base = 0 }) {
     if (nTimes > 0) {
-      return Utils.getSequenceEnd({ numberToAdd, nTimes: nTimes - 1, base: base + numberToAdd })
+      return Utils.getSequenceEnd({
+        numberToAdd,
+        nTimes: nTimes - 1,
+        base: base + numberToAdd
+      })
     }
     return base
   }
