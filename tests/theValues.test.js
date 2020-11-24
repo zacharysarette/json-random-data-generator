@@ -1,4 +1,4 @@
-const theValues = require('../src/getValues')
+const get = require('../src/getValues')
 const mockValues = [
   {
     name: 'donutName',
@@ -37,9 +37,10 @@ const mockValues = [
     values: ['The Example Doughnut Company']
   },
   { name: 'sign', type: 'numSigned', values: [1, 2] },
-  { name: 'date', type: 'date', values: [[2020], 10, 31] }
+  { name: 'date', type: 'date', values: [[2020], 10, 31] },
+  { name: 'date', type: 'numFloat', values: [0, 1] }
 ]
 
 test('should return a string', () => {
-  expect(theValues(mockValues)).not.toBeNull()
+  expect(get({ data: mockValues })).not.toBeNull()
 })

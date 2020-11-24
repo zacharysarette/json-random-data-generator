@@ -1,7 +1,9 @@
-module.exports = function (data, values = []) {
-  const getValue = require('./getValue')
+module.exports = ({ data, values = [] }) => {
+  const get = require('./getValue')
   for (let i = data.length - 1; i > -1; i--) {
-    values.unshift(getValue(data[i].type)(data[i].values))
+    values.unshift(
+      get({ valueType: data[i].type, value: data[i].values })
+    )
   }
   return values
 }

@@ -1,15 +1,15 @@
 module.exports = class Utils {
-  static wrapStringInQuotes (text) {
+  static wrapStringInQuotes ({ text }) {
     return '"' + text + '"'
   }
 
-  static checkAndWrap (element) {
+  static checkAndWrap ({ element }) {
     return typeof element === 'string'
-      ? Utils.wrapStringInQuotes(element)
+      ? Utils.wrapStringInQuotes({ text: element })
       : element
   }
 
-  static rand (bottom, top, addFactor = 0, randFactor = Math.random()) {
+  static rand ({ bottom, top, addFactor = 0, randFactor = Math.random() }) {
     if (bottom === 0) addFactor = 1
     return (
       Math.floor(randFactor * (top - bottom + addFactor)) +
@@ -18,38 +18,40 @@ module.exports = class Utils {
     )
   }
 
-  static randFloat (bottom, top, addFactor = 0, randFactor = Math.random()) {
+  static randFloat ({ bottom, top, addFactor = 0, randFactor = Math.random() }) {
     if (bottom === 0) addFactor = 1
     return (
       randFactor * (top - bottom + addFactor) + (bottom + addFactor) - addFactor
     )
   }
 
-  static getRandFromArray (arr) {
-    return arr[Utils.rand(0, arr.length - 1)]
+  static getRandFromArray ({ arr }) {
+    return arr[Utils.rand({ bottom: 0, top: arr.length - 1 })]
   }
 
-  static sum (a, b) {
+  static sum ({ a, b }) {
     return a + b
   }
 
   static getRandomDate (
     years,
-    randomMonth = Utils.rand(1, 12),
+    randomMonth = Utils.rand({ bottom: 1, top: 12 }),
     day = undefined
   ) {
-    return Utils.printRandDate(Utils.getRandFromArray(years), randomMonth, day)
+    return Utils.printRandDate({ year: Utils.getRandFromArray({ arr: years }), month: randomMonth, day })
   }
 
   static printRandDate (
-    year,
-    month,
-    day = Utils.rand(1, Utils.getMonthEnd(month, year))
+    {
+      year,
+      month,
+      day = Utils.rand({ bottom: 1, top: Utils.getMonthEnd({ month, year }) })
+    }
   ) {
     return `${year}-${month}-${day}`
   }
 
-  static getMonthEnd (month, year) {
+  static getMonthEnd ({ month, year }) {
     if (month < 1 || month > 12) {
       throw new Error('Invalid month, expected 1 - 12.')
     }
@@ -66,12 +68,12 @@ module.exports = class Utils {
   }
 
   static getRandomSign () {
-    return Utils.getRandFromArray([1, -1, 0])
+    return Utils.getRandFromArray({ arr: [1, -1, 0] })
   }
 
-  static getSequenceEnd (numberToAdd, nTimes, base = 0) {
+  static getSequenceEnd ({ numberToAdd, nTimes, base = 0 }) {
     if (nTimes > 0) {
-      return Utils.getSequenceEnd(numberToAdd, nTimes - 1, base + numberToAdd)
+      return Utils.getSequenceEnd({ numberToAdd, nTimes: nTimes - 1, base: base + numberToAdd })
     }
     return base
   }

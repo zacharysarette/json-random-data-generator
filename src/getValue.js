@@ -1,23 +1,11 @@
-module.exports = function (valueType) {
+module.exports = ({ valueType, value }) => {
   const utils = require('./utils')
   return {
-    date: function (element) {
-      return utils.wrapStringInQuotes(utils.getRandomDate(element))
-    },
-    arr: function (element) {
-      return utils.checkAndWrap(utils.getRandFromArray(element))
-    },
-    val: function (element) {
-      return utils.checkAndWrap(element[0])
-    },
-    num: function (element) {
-      return utils.rand(element[0], element[1])
-    },
-    numFloat: function (element) {
-      return utils.randFloat(element[0], element[1])
-    },
-    numSigned: function (element) {
-      return utils.rand(element[0], element[1]) * utils.getRandomSign()
-    }
-  }[valueType]
+    date: (e) => utils.wrapStringInQuotes({ text: utils.getRandomDate(e) }),
+    arr: (e) => utils.checkAndWrap({ element: utils.getRandFromArray({ arr: e }) }),
+    val: (e) => utils.checkAndWrap({ element: e[0] }),
+    num: (e) => utils.rand({ bottom: e[0], top: e[1] }),
+    numFloat: (e) => utils.randFloat({ bottom: e[0], top: e[1] }),
+    numSigned: (e) => utils.rand({ bottom: e[0], top: e[1] }) * utils.getRandomSign()
+  }[valueType](value)
 }

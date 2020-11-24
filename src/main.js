@@ -10,4 +10,4 @@ const jsonString = build({
 })
 const fileName = './exports/' + params.f
 
-write(fileName, jsonString)
+write({ fileName, jsonString })
