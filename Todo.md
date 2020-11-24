@@ -4,7 +4,7 @@
 
 - Clean up main file and put string building and file writing in separate files -- Done
 
-- Refactor with a single object for arguments
+- Refactor with a single object for arguments -- Done
 
 - Write out tests -- in progress
 
@@ -18,4 +18,5 @@
 
   - Config Usage Guide
   - Rolling Sequential Arr
-  - num with decimals, specify how many decimals
+  - num with decimals -- Done
+  - specify how many decimals
