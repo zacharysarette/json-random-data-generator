@@ -2,1003 +2,1203 @@
 "customerComments":[
 {
 "company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 48,
-"donutName": "Butternut"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 136,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 49,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
 "customerComment": "It was okay... I guess...",
-"price": 164,
+"customerRating": 68.50454115485834,
+"price": 180,
 "donutName": "Chocolate Frosted"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 52,
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 86.2937054940101,
+"price": 186,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 20.13289213464826,
+"price": 125,
+"donutName": "Original Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 68.4890538357093,
+"price": 11,
 "donutName": "Butternut"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 76,
-"donutName": "Glazed Stick"
+"customerComment": "Can I have the recipe?",
+"customerRating": 34.955213818757855,
+"price": 26,
+"donutName": "French Cruller"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 181,
-"donutName": "Toasted Coconut"
+"customerComment": "Meh.",
+"customerRating": 46.94781001813847,
+"price": 41,
+"donutName": "Cinnamon"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "I ate 23 of these, and then I got sick...",
-"price": 122,
-"donutName": "Old Fashioned Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 145,
-"donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 49,
-"donutName": "Jelly Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 160,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 73,
+"customerRating": 22.488509271052312,
+"price": 144,
 "donutName": "Powdered Sugar"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 17,
-"donutName": "Maple Frosted with Sprinkles"
+"customerComment": "Can I have the recipe?",
+"customerRating": 66.77134213125163,
+"price": 49,
+"donutName": "Old Fashioned Cake"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 18,
-"donutName": "Toasted Coconut"
+"customerComment": "Meh.",
+"customerRating": 16.941741830266327,
+"price": 70,
+"donutName": "Cinnamon"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 102,
-"donutName": "Vanilla Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 2,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
+"customerComment": "I want my money back.",
+"customerRating": 71.8605278000356,
 "price": 115,
 "donutName": "Toasted Coconut"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 196,
-"donutName": "Chocolate Glazed"
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 67.5163834229839,
+"price": 97,
+"donutName": "Glazed Chocolate Stick"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "I ate 23 of these, and then I got sick...",
-"price": 17,
-"donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 147,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 123,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 106,
-"donutName": "Maple Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 41,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 113,
-"donutName": "Double Chocolate"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 193,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 72,
-"donutName": "Blueberry Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 92,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 55,
-"donutName": "Jelly Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 152,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 155,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 19,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 136,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 43,
-"donutName": "Boston Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 23,
-"donutName": "Strawberry Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 18,
-"donutName": "Old Fashioned Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 77,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 190,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 88,
-"donutName": "Old Fashioned Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 27,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 66,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 70,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 132,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 65,
-"donutName": "Strawberry Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 31,
-"donutName": "Maple Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 120,
-"donutName": "Vanilla Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 89,
-"donutName": "Maple Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 55,
-"donutName": "Old Fashioned Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 50,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 95,
-"donutName": "French Cruller"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 80,
-"donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 42.81912583024731,
 "price": 60,
-"donutName": "Jelly Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 196,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 53,
-"donutName": "Glazed Chocolate Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 144,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 190,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 149,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 189,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 19,
-"donutName": "Cinnamon"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 94,
-"donutName": "Chocolate Frosted"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 118,
 "donutName": "Strawberry Frosted with Sprinkles"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 169,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
 "customerComment": "I ate 23 of these, and then I got sick...",
-"price": 119,
-"donutName": "Butternut"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 75,
-"donutName": "Maple Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 87,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 194,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 94,
-"donutName": "Boston Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 71,
-"donutName": "Toasted Coconut"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 185,
-"donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 112,
-"donutName": "Vanilla Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 181,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 129,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 118,
-"donutName": "Strawberry Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 161,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 91,
-"donutName": "Glazed Chocolate Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 120,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 170,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 68,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 37,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 136,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 47,
-"donutName": "Glazed Chocolate Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 188,
-"donutName": "Maple Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 150,
-"donutName": "French Cruller"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 118,
-"donutName": "Blueberry Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 110,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 42,
-"donutName": "Cinnamon"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 11,
-"donutName": "Glazed Chocolate Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 108,
-"donutName": "Jelly Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 36,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 21,
-"donutName": "Glazed Chocolate Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 52,
+"customerRating": 77.29417092634527,
+"price": 17,
 "donutName": "Double Chocolate"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 82,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 198,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
 "customerComment": "Great!",
-"price": 70,
-"donutName": "Double Chocolate"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 49,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 10,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 188,
-"donutName": "Cinnamon"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 53,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 40,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 66,
-"donutName": "Strawberry Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 112,
-"donutName": "Toasted Coconut"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 56,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 189,
-"donutName": "Blueberry Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 34,
-"donutName": "Vanilla Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 59,
-"donutName": "Butternut"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 166,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 59,
-"donutName": "Cinnamon"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 30,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 140,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 177,
-"donutName": "Blueberry Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 2,
-"donutName": "Jelly Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 78,
-"donutName": "Chocolate Frosted"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 93,
-"donutName": "Toasted Coconut"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 191,
-"donutName": "Glazed Chocolate Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 159,
-"donutName": "Vanilla Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 169,
-"donutName": "Maple Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 20,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 127,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 123,
-"donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 99,
-"donutName": "Blueberry Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 91,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 112,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 15,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 57,
-"donutName": "Butternut"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 64,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 121,
-"donutName": "Glazed Chocolate Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 54,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 110,
-"donutName": "Double Chocolate"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 48,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 193,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 4,
-"donutName": "French Cruller"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 99,
-"donutName": "Old Fashioned Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 135,
-"donutName": "Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 33,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 118,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 93,
-"donutName": "Glazed Chocolate Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
+"customerRating": 97.81512943185152,
 "price": 24,
-"donutName": "Bavarian Cream"
+"donutName": "Glazed"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 160,
-"donutName": "Strawberry Frosted with Sprinkles"
+"customerComment": "Gross!",
+"customerRating": 32.57998018327989,
+"price": 101,
+"donutName": "Double Chocolate"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "Delicious!",
-"price": 91,
-"donutName": "Chocolate Glazed"
+"customerRating": 88.84666423174733,
+"price": 169,
+"donutName": "Butternut"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 87,
+"customerComment": "Can I have the recipe?",
+"customerRating": 57.94275446210667,
+"price": 185,
+"donutName": "Original Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 40.645343920749816,
+"price": 55,
 "donutName": "Glazed Chocolate Stick"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 71,
-"donutName": "Strawberry Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 119,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 177,
-"donutName": "Strawberry Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 151,
+"customerComment": "Great!",
+"customerRating": 73.83254722232857,
+"price": 153,
 "donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 176,
-"donutName": "Toasted Coconut"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 127,
-"donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 7,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 129,
-"donutName": "Blueberry Cake"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "I want my money back.",
-"price": 84,
+"customerRating": 40.038066210724004,
+"price": 10,
+"donutName": "Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 35.35388323241274,
+"price": 160,
 "donutName": "Boston Cream"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "Great!",
-"price": 117,
-"donutName": "Original Stick"
+"customerRating": 81.88522922001134,
+"price": 147,
+"donutName": "Chocolate Glazed"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 198,
-"donutName": "Toasted Coconut"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 24.604021577413945,
 "price": 150,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 66,
 "donutName": "Glazed Chocolate Stick"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 79,
+"customerComment": "Delicious!",
+"customerRating": 82.47369773598493,
+"price": 109,
 "donutName": "Jelly Stick"
 },{
 "company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 69.66412078126872,
+"price": 146,
+"donutName": "Jelly"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 87.75897702331022,
+"price": 108,
+"donutName": "Butternut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 44.86477679754209,
+"price": 131,
+"donutName": "Butternut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 50.750783297526446,
+"price": 139,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 90.98048931473858,
+"price": 12,
+"donutName": "Vanilla Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 70.29916127494982,
+"price": 183,
+"donutName": "Chocolate Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 21.521858710432276,
+"price": 169,
+"donutName": "Jelly Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 14.548170394432447,
+"price": 112,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 46.9860231447824,
+"price": 173,
+"donutName": "Chocolate Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 86.45829812359268,
+"price": 18,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 81.88311604048214,
+"price": 117,
+"donutName": "Chocolate Frosted"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 23.830927291892483,
+"price": 44,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 14.504258720245025,
+"price": 121,
+"donutName": "Glazed Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 80.77453753858238,
+"price": 136,
+"donutName": "Chocolate Frosted"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 22.79692915045248,
+"price": 90,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 77.95453155169899,
+"price": 16,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
 "customerComment": "Meh.",
-"price": 11,
+"customerRating": 85.26992734598993,
+"price": 193,
 "donutName": "Cinnamon"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "I have had worse.",
-"price": 164,
-"donutName": "Strawberry Frosted with Sprinkles"
+"customerRating": 35.84087451701971,
+"price": 154,
+"donutName": "Glazed"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 155,
-"donutName": "Jelly"
+"customerComment": "It was okay... I guess...",
+"customerRating": 54.019579212952735,
+"price": 196,
+"donutName": "Chocolate Frosted"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 47,
-"donutName": "French Cruller"
+"customerComment": "I want my money back.",
+"customerRating": 47.87408494719755,
+"price": 189,
+"donutName": "Maple Frosted with Sprinkles"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "I ate 23 of these, and then I got sick...",
-"price": 129,
-"donutName": "Strawberry Frosted with Sprinkles"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 18,
-"donutName": "Blueberry Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
+"customerRating": 60.378013567275204,
 "price": 32,
 "donutName": "Blueberry Cake"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 130,
-"donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 101,
-"donutName": "Cinnamon"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 1,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 192,
-"donutName": "Chocolate Frosted"
-},{
-"company": "The Example Doughnut Company",
 "customerComment": "Great!",
-"price": 193,
-"donutName": "Glazed Stick"
+"customerRating": 23.867987122168238,
+"price": 9,
+"donutName": "Toasted Coconut"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 183,
-"donutName": "Old Fashioned Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 191,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 27,
-"donutName": "Chocolate Frosted"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 76,
-"donutName": "Bavarian Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "It was okay... I guess...",
-"price": 174,
-"donutName": "Old Fashioned Cake"
+"customerComment": "Meh.",
+"customerRating": 54.66869517083587,
+"price": 93,
+"donutName": "Strawberry Frosted with Sprinkles"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "I want my money back.",
-"price": 117,
-"donutName": "Bavarian Cream"
+"customerRating": 76.83314010913442,
+"price": 178,
+"donutName": "Maple Frosted with Sprinkles"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 127,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 157,
-"donutName": "French Cruller"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 68,
-"donutName": "French Cruller"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 24,
-"donutName": "Chocolate Frosted"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 198,
-"donutName": "Old Fashioned Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 58,
-"donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 115,
-"donutName": "Old Fashioned Cake"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 6,
+"customerComment": "Can I have the recipe?",
+"customerRating": 61.22003219862405,
+"price": 80,
 "donutName": "Powdered Sugar"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "Great!",
-"price": 119,
+"customerRating": 73.86658507891342,
+"price": 195,
 "donutName": "Double Chocolate"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Great!",
-"price": 180,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Can I have the recipe?",
-"price": 67,
-"donutName": "Boston Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I ate 23 of these, and then I got sick...",
-"price": 188,
-"donutName": "Jelly"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 165,
-"donutName": "French Cruller"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 69,
-"donutName": "Powdered Sugar"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Meh.",
-"price": 93,
-"donutName": "Boston Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 119,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
 "customerComment": "Gross!",
-"price": 44,
-"donutName": "Cinnamon"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 5,
-"donutName": "Original Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "I have had worse.",
-"price": 99,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 158,
-"donutName": "Vanilla Frosted with Sprinkles"
+"customerRating": 11.668681881186687,
+"price": 123,
+"donutName": "Toasted Coconut"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "It was okay... I guess...",
-"price": 62,
-"donutName": "Boston Cream"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 182,
-"donutName": "Glazed Stick"
+"customerRating": 82.94954062198468,
+"price": 171,
+"donutName": "Jelly Stick"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "I have had worse.",
-"price": 160,
-"donutName": "Vanilla Frosted with Sprinkles"
+"customerRating": 8.154890693118432,
+"price": 118,
+"donutName": "Bavarian Cream"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "I want my money back.",
-"price": 144,
-"donutName": "Chocolate Glazed"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Not as good at Tom Hartman's.",
-"price": 109,
+"customerComment": "Delicious!",
+"customerRating": 85.41690342636366,
+"price": 150,
 "donutName": "Blueberry Cake"
 },{
 "company": "The Example Doughnut Company",
-"customerComment": "Gross!",
-"price": 106,
+"customerComment": "Meh.",
+"customerRating": 66.9113922985682,
+"price": 30,
+"donutName": "Boston Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 65.04974586692683,
+"price": 175,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 35.78341629445094,
+"price": 160,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 93.42641370074949,
+"price": 193,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 94.70202261085225,
+"price": 25,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 32.790841245492764,
+"price": 63,
 "donutName": "Double Chocolate"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "I have had worse.",
+"customerRating": 58.99050387743227,
+"price": 173,
+"donutName": "Chocolate Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 52.988681412211015,
+"price": 30,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 71.1610125391827,
+"price": 111,
+"donutName": "French Cruller"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 74.55242912161141,
+"price": 36,
+"donutName": "Boston Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 40.687163833939294,
+"price": 187,
+"donutName": "Jelly Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 27.05657972739719,
+"price": 129,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 34.66912729864299,
+"price": 104,
+"donutName": "Boston Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 56.00097004366618,
+"price": 114,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 27.819993150055943,
 "price": 185,
+"donutName": "Blueberry Cake"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 91.53781300203826,
+"price": 167,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 18.3582989346995,
+"price": 42,
+"donutName": "Double Chocolate"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 81.44238794648824,
+"price": 82,
+"donutName": "Chocolate Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 59.970965483483674,
+"price": 131,
+"donutName": "Vanilla Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 29.89027467782197,
+"price": 105,
+"donutName": "Jelly Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 84.53113353622673,
+"price": 86,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 44.53220966032424,
+"price": 39,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 20.235407292389265,
+"price": 74,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 94.18361428565011,
+"price": 175,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 85.40805882145307,
+"price": 142,
+"donutName": "Double Chocolate"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 33.98736265131012,
+"price": 196,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 85.23409270062007,
+"price": 11,
+"donutName": "Glazed Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 17.603432274283456,
+"price": 109,
+"donutName": "Boston Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 73.39989778031027,
+"price": 76,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 64.6453204868869,
+"price": 110,
+"donutName": "French Cruller"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 85.76228808604596,
+"price": 129,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 61.46547212259485,
+"price": 171,
+"donutName": "Chocolate Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 93.50182143145932,
+"price": 168,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 54.43421169063067,
+"price": 15,
+"donutName": "Jelly"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 27.950786781098053,
+"price": 139,
+"donutName": "Old Fashioned Cake"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 90.28642725077111,
+"price": 64,
+"donutName": "Chocolate Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 7.984280482002983,
+"price": 86,
+"donutName": "Boston Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 18.13005079400976,
+"price": 26,
+"donutName": "Chocolate Frosted"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 94.70859285155976,
+"price": 19,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 15.581500957054713,
+"price": 33,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 96.54663311619161,
+"price": 45,
+"donutName": "Double Chocolate"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 7.045898605204405,
+"price": 181,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 88.55853517695444,
+"price": 51,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 55.51602717467951,
+"price": 160,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 15.635141634567038,
+"price": 144,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 54.65257566292185,
+"price": 151,
+"donutName": "Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 68.99327452776622,
+"price": 149,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 97.00731062272902,
+"price": 63,
+"donutName": "Double Chocolate"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 84.16169080027082,
+"price": 10,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 76.97916191152858,
+"price": 17,
+"donutName": "Chocolate Frosted"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 1.3884836612754279,
+"price": 161,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 63.9427933965754,
+"price": 176,
+"donutName": "Jelly"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 3.5772175865649856,
+"price": 18,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 25.565051813179192,
+"price": 153,
+"donutName": "Butternut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 65.23436845387516,
+"price": 115,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 27.531159512603914,
+"price": 198,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 24.072775066331197,
+"price": 85,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 48.03235916517412,
+"price": 165,
+"donutName": "Chocolate Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 75.95898395904511,
+"price": 67,
+"donutName": "Blueberry Cake"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 92.30393382481566,
+"price": 163,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 23.082079388307545,
+"price": 175,
+"donutName": "French Cruller"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 38.55867308114081,
+"price": 110,
+"donutName": "Butternut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 82.50790920457587,
+"price": 191,
+"donutName": "Boston Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 53.991628661628006,
+"price": 191,
+"donutName": "Blueberry Cake"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 71.17109173869414,
+"price": 124,
+"donutName": "Double Chocolate"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 24.128502018785532,
+"price": 78,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 49.29915641452368,
+"price": 162,
+"donutName": "Original Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 97.17363043194021,
+"price": 98,
+"donutName": "Butternut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 57.874769678960504,
+"price": 146,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 50.25386590041114,
+"price": 6,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 67.12259679553158,
+"price": 192,
+"donutName": "Blueberry Cake"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 52.34069225521546,
+"price": 130,
+"donutName": "Chocolate Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 64.20002479964845,
+"price": 120,
+"donutName": "Original Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 14.929602075688305,
+"price": 31,
+"donutName": "Boston Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 50.94088161855702,
+"price": 149,
+"donutName": "Jelly Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 68.98453062107404,
+"price": 123,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 2.848190234133824,
+"price": 186,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 45.96464215105376,
+"price": 169,
+"donutName": "Butternut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 57.167817603965986,
+"price": 82,
+"donutName": "Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 74.94550243540608,
+"price": 24,
+"donutName": "Jelly Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 87.75565888795393,
+"price": 49,
+"donutName": "Glazed Chocolate Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 13.062375524092614,
+"price": 193,
+"donutName": "Blueberry Cake"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 26.053613390347763,
+"price": 119,
+"donutName": "Jelly Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 21.967894624073864,
+"price": 106,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 97.93415183459217,
+"price": 84,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 73.41819714909361,
+"price": 177,
+"donutName": "Chocolate Frosted"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 49.55344505804414,
+"price": 97,
+"donutName": "Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 92.48260381100603,
+"price": 198,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 41.707440978536354,
+"price": 109,
+"donutName": "Vanilla Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 63.167397639837205,
+"price": 59,
+"donutName": "Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 17.592526193206876,
+"price": 83,
+"donutName": "French Cruller"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 5.79882775502208,
+"price": 196,
+"donutName": "Double Chocolate"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 97.99376998311266,
+"price": 151,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 2.9672402968630145,
+"price": 50,
+"donutName": "French Cruller"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 67.98749886279347,
+"price": 107,
+"donutName": "Vanilla Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 56.20097824009582,
+"price": 152,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 69.89985193785344,
+"price": 107,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 62.763515811953525,
+"price": 147,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 10.756344300923475,
+"price": 7,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 27.556203026290756,
+"price": 52,
+"donutName": "Jelly"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 65.31027007884808,
+"price": 175,
+"donutName": "Jelly"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 95.68856134700313,
+"price": 94,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 44.39171377189401,
+"price": 192,
+"donutName": "Jelly Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 95.83144216756847,
+"price": 78,
+"donutName": "Boston Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 22.52955461775553,
+"price": 139,
+"donutName": "Jelly"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 17.000860376787653,
+"price": 96,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 79.36186061399637,
+"price": 192,
+"donutName": "French Cruller"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 15.570779953625378,
+"price": 66,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 8.675282907142002,
+"price": 55,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 12.488209044931667,
+"price": 8,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 23.935854598795377,
+"price": 12,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 99.8318168159534,
+"price": 123,
+"donutName": "Blueberry Cake"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 8.470444530984349,
+"price": 105,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 24.893788105339816,
+"price": 118,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 59.55186467165103,
+"price": 106,
+"donutName": "Glazed"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 72.36534787704738,
+"price": 25,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 80.23563366565033,
+"price": 40,
+"donutName": "Original Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 82.37335673122512,
+"price": 147,
+"donutName": "Chocolate Frosted"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 93.77652847889301,
+"price": 22,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 52.08567299839005,
+"price": 79,
+"donutName": "Jelly Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 51.443810660915666,
+"price": 129,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 26.837239311563756,
+"price": 139,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 41.81498224114715,
+"price": 52,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 62.678650538184684,
+"price": 155,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 26.637477742219907,
+"price": 30,
+"donutName": "Chocolate Frosted"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 70.80082432187473,
+"price": 35,
+"donutName": "Glazed Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 37.84792297405218,
+"price": 20,
+"donutName": "Blueberry Cake"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Not as good at Tom Hartman's.",
+"customerRating": 7.95581016173134,
+"price": 106,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Gross!",
+"customerRating": 57.09641628374148,
+"price": 155,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 86.58429468073291,
+"price": 127,
+"donutName": "Bavarian Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 15.613034094172988,
+"price": 84,
+"donutName": "Original Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 25.67121016228306,
+"price": 22,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 76.9195965413902,
+"price": 36,
+"donutName": "Original Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 17.71719475055878,
+"price": 138,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 55.16047505843228,
+"price": 158,
+"donutName": "Boston Cream"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Meh.",
+"customerRating": 67.58678534184376,
+"price": 8,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Can I have the recipe?",
+"customerRating": 67.3447055891685,
+"price": 43,
+"donutName": "Cinnamon"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 97.6679148623356,
+"price": 47,
+"donutName": "Vanilla Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Delicious!",
+"customerRating": 14.257361325982483,
+"price": 95,
+"donutName": "Powdered Sugar"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 2.6683775216286367,
+"price": 70,
+"donutName": "Glazed Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 43.47312836621776,
+"price": 163,
+"donutName": "Chocolate Frosted"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 11.364165638381342,
+"price": 188,
+"donutName": "Maple Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I want my money back.",
+"customerRating": 7.358936867996723,
+"price": 163,
+"donutName": "Strawberry Frosted with Sprinkles"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 34.377312247521544,
+"price": 8,
+"donutName": "Glazed Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 92.93780628678424,
+"price": 79,
 "donutName": "Glazed Stick"
 },{
 "company": "The Example Doughnut Company",
 "customerComment": "I ate 23 of these, and then I got sick...",
-"price": 104,
-"donutName": "Glazed Stick"
-},{
-"company": "The Example Doughnut Company",
-"customerComment": "Delicious!",
-"price": 186,
-"donutName": "Jelly"
+"customerRating": 34.90865909806191,
+"price": 131,
+"donutName": "French Cruller"
 }]
 }

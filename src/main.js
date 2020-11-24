@@ -5,7 +5,7 @@ const write = require('./write')
 
 const jsonString = build({
   configFile: params.c,
-  objArrayName: params.a,
+  objectArrayName: params.a,
   numberOfObjects: params.n
 })
 const fileName = './exports/' + params.f

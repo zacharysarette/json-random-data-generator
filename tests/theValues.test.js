@@ -15,6 +15,7 @@ const mockValues = [
     ]
   },
   { name: 'price', type: 'num', values: [1, 200] },
+  { name: 'customerRating', type: 'numFloat', values: [1, 100] },
   {
     name: 'customerComment',
     type: 'arr',
