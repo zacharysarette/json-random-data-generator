@@ -8,6 +8,5 @@ const jsonString = build({
   objectArrayName: params.a,
   numberOfObjects: params.n
 })
-const fileName = './exports/' + params.f
 
-write({ fileName, jsonString })
+write({ fileName: params.f, jsonString })
