@@ -1,8 +1,8 @@
 {
-  "name": "jsondatagenerator",
+  "name": "json-random-data-generator",
   "version": "1.0.0",
   "description": "a json data generator",
-  "main": "./src/main.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
