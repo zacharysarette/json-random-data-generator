@@ -1,4 +1,4 @@
-class jsonDataGenerator {
+module.exports = class jsonDataGenerator {
   static buildJsonString ({ configFile, objectArrayName, numberOfObjects }) {
     return require('./build')({
       configFile,
@@ -7,9 +7,7 @@ class jsonDataGenerator {
     })
   }
 
-  static buildJustonStringAndWriteToFile ({ filename, params }) {
+  static buildJsonStringAndWriteToFile ({ filename, params }) {
     return require('./write')({ filename, jsonString: this.buildJsonString(params) })
   }
 }
-
-export default jsonDataGenerator
