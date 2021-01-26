@@ -1,10 +1,7 @@
-     J  SSS   OOO  N   N     RRRR  AA  N   N DDD   OOO  M   M     DDD  AA  TTTTTT AA       GGG  EEEE N   N EEEE RRRR  AA  TTTTTT  OOO  RRRR 
-     J S     O   O NN  N     R   RA  A NN  N D  D O   O MM MM     D  DA  A   TT  A  A     G     E    NN  N E    R   RA  A   TT   O   O R   R
-     J  SSS  O   O N N N     RRRR AAAA N N N D  D O   O M M M     D  DAAAA   TT  AAAA     G  GG EEE  N N N EEE  RRRR AAAA   TT   O   O RRRR 
- J   J     S O   O N  NN     R R  A  A N  NN D  D O   O M   M     D  DA  A   TT  A  A     G   G E    N  NN E    R R  A  A   TT   O   O R R  
-  JJJ  SSSS   OOO  N   N     R  RRA  A N   N DDD   OOO  M   M     DDD A  A   TT  A  A      GGG  EEEE N   N EEEE R  RRA  A   TT    OOO  R  RR
-                                                                                                                                            
-                                                                                                                                                
+    __ __        __          __  __        __     ___       __  __     __ __     ___ __  __ 
+  |(_ /  \|\ |  |__) /\ |\ ||  \/  \|\/|  |  \ /\  |  /\   / _ |_ |\ ||_ |__) /\  | /  \|__)
+(_)__)\__/| \|  | \ /--\| \||__/\__/|  |  |__//--\ | /--\  \__)|__| \||__| \ /--\ | \__/| \ 
+                                                                                                                                          
 ---
 
 # JSON RANDOM DATA GENERATOR
