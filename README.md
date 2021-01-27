@@ -4,6 +4,8 @@
 
 # Table of Contents
 
+* [About](#About)
+
 * [Installation](#Installation)
 
 * [Usage](#Usage)
@@ -14,6 +16,15 @@
 
 * [Example Config File](#Example-Config-File)
 
+* [Example Output File](#Example-Output-File)
+
+---
+## About
+
+This is little utility made to easily generate mock-up json data for prototyping.
+
+You can import it into your project, or use it as a command line tool.
+
 ---
 ## Installation
 ```
@@ -22,7 +33,7 @@ $ npm i json-random-data-generator
 ---
 ## Usage
 
-import json-random-data-generator from 'json-random-data-generator'
+import jsonRandomDataGenerator from 'json-random-data-generator'
 
 ---
 ## Methods
@@ -119,5 +130,39 @@ Examples:
       "values": ["The Example Doughnut Company"]
     }
   ]
+}
+```
+
+## Example Output File
+
+```json
+{
+"customerComments":[
+{
+"company": "The Example Doughnut Company",
+"customerComment": "It was okay... I guess...",
+"customerRating": 68.50454115485834,
+"price": 180,
+"donutName": "Chocolate Frosted"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I ate 23 of these, and then I got sick...",
+"customerRating": 86.2937054940101,
+"price": 186,
+"donutName": "Toasted Coconut"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "I have had worse.",
+"customerRating": 20.13289213464826,
+"price": 125,
+"donutName": "Original Stick"
+},{
+"company": "The Example Doughnut Company",
+"customerComment": "Great!",
+"customerRating": 68.4890538357093,
+"price": 11,
+"donutName": "Butternut"
+}
+]
 }
 ```
