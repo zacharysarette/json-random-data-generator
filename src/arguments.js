@@ -2,7 +2,7 @@ module.exports = require('yargs')
   .scriptName('json-data-generator')
   .usage('Usage: $0 -a string -f string -n number -c string')
   .example(
-    'npm run generate -- -a customerComments -f ./exports/exampleData.json -n 200 -c exampleConfig.json'
+    'npm run generate -- -a customerComments -f ./exports/exampleData.json -n 200 -c ./configs/exampleConfig.json'
   )
   .option('a', {
     alias: 'arrayName',

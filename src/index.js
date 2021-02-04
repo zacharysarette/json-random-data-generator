@@ -1,5 +1,5 @@
 module.exports = class jsonDataGenerator {
-  static buildJsonString ({ configFile = '', objectArrayName = '', numberOfObjects = 0 }) {
+  static buildJsonStringFromConfigFile ({ configFile = '', objectArrayName = '', numberOfObjects = 0 }) {
     return require('./build')({
       configFile,
       objectArrayName,
@@ -9,5 +9,13 @@ module.exports = class jsonDataGenerator {
 
   static buildJsonStringAndWriteToFile ({ filename = '', params }) {
     return require('./write')({ filename, jsonString: this.buildJsonString(params) })
+  }
+
+  static buildJsonStringFromConfigString ({ configString = '', objectArrayName = '', numberOfObjects = 0 }) {
+    return require('./build')({
+      configString,
+      objectArrayName,
+      numberOfObjects
+    })
   }
 }

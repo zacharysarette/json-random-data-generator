@@ -46,6 +46,14 @@ buildJsonStringAndWriteToFile({ filename, params }: { filename: any; params: any
 
  * Should build a string for random JSON data and save it to file
 
+buildJsonStringFromConfigString({ configString, objectArrayName, numberOfObjects }: {
+    configString?: string;
+    objectArrayName?: string;
+    numberOfObjects?: number;
+}): string
+ 
+ * Should build a string for random JSON data from a config string
+
 ---
 ## Command Line Tool
 
@@ -67,7 +75,7 @@ Options:
 
 Examples:
   npm run generate -- -a customerComments -f ./exports/exampleData.json -n 200
-  -c exampleConfig.json
+  -c ./configs/exampleConfig.json
 
   If the above example doesn't work, try adding the following line to your config file under scripts. 
   "generate": "generateJson"
@@ -78,7 +86,7 @@ Examples:
 
 ```json
 {
-  "theFields": [
+  "customerComments": [
     {
       "name": "donutName",
       "type": "arr",
