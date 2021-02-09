@@ -37,22 +37,81 @@ import jsonRandomDataGenerator from 'json-random-data-generator'
 
 ---
 ## Methods
+### Main Methods
 
-buildJsonString({ configFile, objectArrayName, numberOfObjects }: { configFile: any; objectArrayName: any; numberOfObjects: any; }): any
+(method) jsonDataGenerator.buildJsonStringFromConfigFile({ configFile, objectArrayName, numberOfObjects }: {
+    configFile?: string;
+    objectArrayName?: string;
+    numberOfObjects?: number;
+}): string
 
- * Should return a string for random JSON Data
+(method) jsonDataGenerator.buildJsonStringFromConfigFileAndWriteToFile({ filename, configFile, objectArrayName, numberOfObjects }: {
+    filename?: string;
+    configFile?: string;
+    objectArrayName?: string;
+    numberOfObjects?: number;
+}): void
 
-buildJsonStringAndWriteToFile({ filename, params }: { filename: any; params: any; }): void
-
- * Should build a string for random JSON data and save it to file
-
-buildJsonStringFromConfigString({ configString, objectArrayName, numberOfObjects }: {
+(method) jsonDataGenerator.buildJsonStringFromConfigString({ configString, objectArrayName, numberOfObjects }: {
     configString?: string;
     objectArrayName?: string;
     numberOfObjects?: number;
 }): string
- 
- * Should build a string for random JSON data from a config string
+
+(method) jsonDataGenerator.configObject(): typeof buildConfig
+
+(method) jsonDataGenerator.buildJsonStringFromConfigObject({ configObject, numberOfObjects }: {
+    configObject: any;
+    numberOfObjects: any;
+}): string
+
+(method) jsonDataGenerator.buildJsonStringFromConfigObjectAndWriteToFile({ filename, configObject, objectArrayName, numberOfObjects }: {
+    filename?: string;
+    configObject?: {
+        objectArrayName: any[];
+    };
+    objectArrayName?: string;
+    numberOfObjects?: number;
+}): void
+
+### Build Config Methods
+
+  (method) buildConfig.makeArrayField(name?: string, values?: any[]): {
+    name: string;
+    type: string;
+    values: any[];
+}
+
+(method) buildConfig.makeValueField(name?: string, values?: any[]): {
+    name: string;
+    type: string;
+    values: any[];
+}
+
+(method) buildConfig.makeDateField(name?: string, values?: any[]): {
+    name: string;
+    type: string;
+    values: any[];
+}
+
+(method) buildConfig.makeNumberField(name?: string, values?: any[]): {
+    name: string;
+    type: string;
+    values: any[];
+}
+
+(method) buildConfig.makeNumberFloatField(name?: string, values?: any[]): {
+    name: string;
+    type: string;
+    values: any[];
+}
+
+(method) buildConfig.buildConfigObject({ objectArrayName, fields }: {
+    objectArrayName?: string;
+    fields?: any[];
+}): {
+    [x: string]: any[];
+}
 
 ---
 ## Command Line Tool
