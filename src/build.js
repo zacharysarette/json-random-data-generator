@@ -24,5 +24,5 @@ module.exports = function ({
       fields: theFields,
       generateObject
     })
-    .end().jsonString
+    .end()
 }
