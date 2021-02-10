@@ -18,6 +18,6 @@ module.exports = class GenerateJsonString {
 
   end () {
     this.jsonString += ']\n}\n'
-    return this
+    return this.jsonString
   }
 }

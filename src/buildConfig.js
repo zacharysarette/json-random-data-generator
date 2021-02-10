@@ -1,45 +1,40 @@
-module.exports = class buildConfig {
-  static makeArrayField (name = '', values = []) {
+module.exports = {
+  makeArrayField: (name = '', values = []) => {
     return {
       name,
       type: 'arr',
       values
     }
-  }
-
-  static makeValueField (name = '', values = []) {
+  },
+  makeValueField: (name = '', values = []) => {
     return {
       name,
       type: 'val',
       values
     }
-  }
-
-  static makeDateField (name = '', values = []) {
+  },
+  makeDateField: (name = '', values = []) => {
     return {
       name,
       type: 'date',
       values
     }
-  }
-
-  static makeNumberField (name = '', values = []) {
+  },
+  makeNumberField: (name = '', values = []) => {
     return {
       name,
       type: 'num',
       values
     }
-  }
-
-  static makeNumberFloatField (name = '', values = []) {
+  },
+  makeNumberFloatField: (name = '', values = []) => {
     return {
       name,
       type: 'numFloat',
       values
     }
-  }
-
-  static buildConfigObject ({ objectArrayName = '', fields = [] }) {
+  },
+  buildConfigObject: ({ objectArrayName = '', fields = [] }) => {
     return { [objectArrayName]: fields }
   }
 }

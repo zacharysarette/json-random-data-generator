@@ -1,14 +1,15 @@
-module.exports = ({
+const GenerateJsonString = require('./generateJsonString')
+const generateObject = require('./generateObject')
+
+module.exports = function ({
   configString = '',
   configFile = '',
-  configObject = { objectArrayName: [] },
+  configObject = {},
   objectArrayName,
   numberOfObjects
-}) => {
-  const GenerateJsonString = require('./generateJsonString')
-  const generateObject = require('./generateObject')
+}) {
   const theFields =
-    configObject === { objectArrayName: [] }
+    configObject === {}
       ? configFile === ''
           ? configString === ''
               ? ''
@@ -16,9 +17,6 @@ module.exports = ({
           : require(configFile)[objectArrayName]
       : configObject[objectArrayName]
 
-  if (theFields === '') {
-    throw new Error('No configFile nor configString found.')
-  }
   return new GenerateJsonString()
     .start({ objectArrayName })
     .generateAndAddObjects({

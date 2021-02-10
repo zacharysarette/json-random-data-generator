@@ -1,79 +1,74 @@
-module.exports = class jsonDataGenerator {
-  static buildJsonStringFromConfigFile ({
+const buildConfig = require('./buildConfig')
+const build = require('./build')
+const write = require('./write')
+
+module.exports = {
+  buildJsonStringFromConfigFile: ({
     configFile = '',
     objectArrayName = '',
     numberOfObjects = 0
-  }) {
-    return require('./build')({
+  }) =>
+    build({
       configFile,
       objectArrayName,
       numberOfObjects
-    })
-  }
-
-  static buildJsonStringFromConfigFileAndWriteToFile ({
+    }),
+  buildJsonStringFromConfigFileAndWriteToFile: ({
     filename = '',
     configFile = '',
     objectArrayName = '',
     numberOfObjects = 0
-  }) {
-    return require('./write')({
+  }) =>
+    write({
       filename,
       jsonString: this.buildJsonStringFromConfigFile({
         configFile,
         objectArrayName,
         numberOfObjects
       })
-    })
-  }
-
-  static buildJsonStringFromConfigString ({
+    }),
+  buildJsonStringFromConfigString: ({
     configString = '',
     objectArrayName = '',
     numberOfObjects = 0
-  }) {
-    return require('./build')({
+  }) =>
+    build({
       configString,
       objectArrayName,
       numberOfObjects
-    })
-  }
-
-  static buildJsonStringFromConfigStringAndWriteToFile ({
+    }),
+  buildJsonStringFromConfigStringAndWriteToFile: ({
     filename = '',
     configString = '',
     objectArrayName = '',
     numberOfObjects = 0
-  }) {
-    return require('./write')({
+  }) =>
+    write({
       filename,
       jsonString: this.buildJsonStringFromConfigString({
         configString,
         objectArrayName,
         numberOfObjects
       })
-    })
-  }
-
-  static configObject () {
-    return require('./buildConfig')
-  }
-
-  static buildJsonStringFromConfigObject ({ configObject, numberOfObjects }) {
-    return require('./build')({
+    }),
+  configObject: buildConfig,
+  buildJsonStringFromConfigObject: ({
+    configObject,
+    objectArrayName = Object.keys(configObject)[0],
+    numberOfObjects
+  }) =>
+    build({
       configObject,
-      objectArrayName: Object.keys(configObject)[0] ?? '',
+      objectArrayName,
       numberOfObjects
-    })
-  }
-
-  static buildJsonStringFromConfigObjectAndWriteToFile ({
+    }),
+  buildJsonStringFromConfigObjectAndWriteToFile: ({
     filename = '',
     configObject = { objectArrayName: [] },
     objectArrayName = '',
     numberOfObjects = 0
-  }) {
-    return require('./write')({
+  }) =>
+    write({
       filename,
       jsonString: this.buildJsonStringFromConfigObject({
         configObject,
@@ -81,5 +76,4 @@ module.exports = class jsonDataGenerator {
         numberOfObjects
       })
     })
-  }
 }
