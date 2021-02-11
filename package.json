@@ -1,6 +1,6 @@
 {
   "name": "json-random-data-generator",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "a json data generator",
   "main": "./dist/json-random-data-generator.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "generate": "node ./src/main.js",
     "build": "webpack --mode=production",
     "build-dev": "webpack --mode=development",
-    "analyze-webpack":"webpack --profile --json > stats.json"
+    "analyze-webpack": "webpack --profile --json > stats.json"
   },
   "repository": {
     "type": "git",
