@@ -1,8 +1,8 @@
 #webpack
-.webpack.config.js
+webpack.config.js
 #Source map
-./dist/json-random-data-generator.js.map
+dist/json-random-data-generator.js.map
 #Todo
-.Todo.md
+Todo.md
 #tests
-./tests
+tests/
