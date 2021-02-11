@@ -5,4 +5,44 @@ dist/json-random-data-generator.js.map
 #Todo
 Todo.md
 #tests
-tests/
+tests
+#coverage
+coverage
+#Stats
+stats.json
+#vscode
+.vscode
+
+#node
+node_modules
+
+# Next.js output
+.next/
+
+# Parcel cache
+.cache
+
+# Ignore IDE configuration files
+.idea 
+.vscode
+
+#exports
+exports
+!exampleData.json
+
+#configs
+configs
+!exampleConfig.json
+
+#Jest
+coverage
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#webpack stats
+stats.json
