@@ -1,3 +1,4 @@
+const generateObject = require('./generateObject')
 module.exports = class GenerateJsonString {
   constructor () {
     this.jsonString = ''
@@ -8,7 +9,7 @@ module.exports = class GenerateJsonString {
     return this
   }
 
-  generateAndAddObjects ({ numberOfObjects, fields, generateObject }) {
+  generateAndAddObjects ({ numberOfObjects, fields }) {
     for (numberOfObjects; numberOfObjects > 1; numberOfObjects--) {
       this.jsonString = generateObject({ fields, objectString: this.jsonString })
     }

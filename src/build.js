@@ -1,5 +1,5 @@
 const GenerateJsonString = require('./generateJsonString')
-const generateObject = require('./generateObject')
+const readConfig = require('./read')
 
 module.exports = function ({
   configString = '',
@@ -14,15 +14,14 @@ module.exports = function ({
           ? configString === ''
               ? ''
               : JSON.parse(configString)[objectArrayName]
-          : require(configFile)[objectArrayName]
+          : readConfig(configFile)[objectArrayName]
       : configObject[objectArrayName]
 
   return new GenerateJsonString()
     .start({ objectArrayName })
     .generateAndAddObjects({
       numberOfObjects,
-      fields: theFields,
-      generateObject
+      fields: theFields
     })
     .end()
 }

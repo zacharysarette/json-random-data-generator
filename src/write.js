@@ -1,5 +1,6 @@
+const fs = require('fs')
+
 module.exports = ({ fileName, jsonString }) => {
-  const fs = require('fs')
   console.log('Going to write into existing file')
   fs.writeFile(fileName, jsonString, (err) => {
     if (err) {
