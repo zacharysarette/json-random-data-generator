@@ -7,24 +7,25 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "lint": "standard --fix",
-    "generate": "node ./src/main.js",
     "build": "webpack --mode=production",
     "build-dev": "webpack --mode=development",
     "analyze-webpack": "webpack --profile --json > stats.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zacharysarette/json-data-generator.git"
+    "url": "git+https://github.com/zacharysarette/json-random-data-generator.git"
   },
   "keywords": [
-    "generator"
+    "json",
+    "generator",
+    "library"
   ],
   "author": "Zachary W Sarette",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zacharysarette/json-data-generator/issues"
+    "url": "https://github.com/zacharysarette/json-random-data-generator/issues"
   },
-  "homepage": "https://github.com/zacharysarette/json-data-generator#readme",
+  "homepage": "https://github.com/zacharysarette/json-random-data-generator#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "yargs": "^16.1.0"
@@ -35,9 +36,6 @@
     "standard": "^16.0.1",
     "webpack": "^5.21.2",
     "webpack-cli": "^4.5.0"
-  },
-  "bin": {
-    "generateJson": "./src/main.js"
   },
   "standard": {
     "envs": [

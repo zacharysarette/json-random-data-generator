@@ -28,7 +28,7 @@ You can import it into your project, or use it as a command line tool.
 ---
 ## Installation
 ```
-$ npm i json-random-data-generator
+npm i json-random-data-generator
 ```
 ---
 ## Usage
