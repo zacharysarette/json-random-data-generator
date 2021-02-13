@@ -10,5 +10,5 @@ module.exports = ['source-map'].map((devtool) => ({
     libraryTarget: 'umd'
   },
   devtool,
-  externals: ['fs', 'chalk']
+  externals: ['fs']
 }))
