@@ -12,8 +12,6 @@
 
 * [Methods](#Methods)
 
-* [Command Line Tool](#Command-Line-Tool)
-
 * [Example Config File](#Example-Config-File)
 
 * [Example Output File](#Example-Output-File)
@@ -22,8 +20,6 @@
 ## About
 
 This is little utility made to easily generate mock-up json data for prototyping.
-
-You can import it into your project, or use it as a command line tool.
 
 ---
 ## Installation
@@ -112,32 +108,6 @@ import jsonRandomDataGenerator from 'json-random-data-generator'
 }): {
     [x: string]: any[];
 }
-
----
-## Command Line Tool
-
-> generateJson
-
-Usage: json-data-generator -a string -f string -n number -c string
-
-Options:
-      --help                       Show help                           [boolean]
-      --version                    Show version number                 [boolean]
-  -a, --arrayName                  the name of the array of objects
-                                                             [string] [required]
-  -n, --numberOfObjectsToGenerate  The number of objects to generate in the json
-                                   array                     [number] [required]
-  -f, --fileName                   The file name for the output file to be put
-                                   in the exports folder     [string] [required]
-  -c, --configFile                 The path for the config file that is in the
-                                   config folder             [string] [required]
-
-Examples:
-  npm run generate -- -a customerComments -f ./exports/exampleData.json -n 200
-  -c ./configs/exampleConfig.json
-
-  If the above example doesn't work, try adding the following line to your config file under scripts. 
-  "generate": "generateJson"
 
 ---
 
