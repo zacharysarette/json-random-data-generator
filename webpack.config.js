@@ -4,6 +4,7 @@ module.exports = ['source-map'].map((devtool) => ({
   mode: 'development',
   entry: './src/index.js',
   output: {
+    globalObject: 'this',
     path: path.resolve(__dirname, 'dist'),
     filename: 'json-random-data-generator.js',
     library: 'jsonRandomDataGenerator',
