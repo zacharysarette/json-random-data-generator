@@ -1,7 +1,9 @@
 #webpack
 webpack.config.js
+
 #Source map
-dist/json-random-data-generator.js.map
+#dist/json-random-data-generator.js.map
+
 #Todo
 Todo.md
 #tests
