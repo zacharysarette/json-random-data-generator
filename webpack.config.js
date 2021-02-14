@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = ['source-map'].map((devtool) => ({
-  mode: 'development',
+  mode: 'production',
   entry: './src/index.js',
   output: {
     globalObject: 'this',
@@ -10,6 +10,5 @@ module.exports = ['source-map'].map((devtool) => ({
     library: 'jsonRandomDataGenerator',
     libraryTarget: 'umd'
   },
-  devtool,
-  externals: ['fs']
+  devtool
 }))

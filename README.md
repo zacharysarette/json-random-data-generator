@@ -21,6 +21,8 @@
 
 This is little utility made to easily generate mock-up json data for prototyping.
 
+The generator will return a string which can be converted into a json object
+
 ---
 ## Installation
 ```
@@ -35,40 +37,7 @@ import jsonRandomDataGenerator from 'json-random-data-generator'
 ## Methods
 ### Main Methods
 
-(method) jsonDataGenerator.buildJsonStringFromConfigFile({ configFile, objectArrayName, numberOfObjects }: {
-    configFile?: string;
-    objectArrayName?: string;
-    numberOfObjects?: number;
-}): string
 
-(method) jsonDataGenerator.buildJsonStringFromConfigFileAndWriteToFile({ filename, configFile, objectArrayName, numberOfObjects }: {
-    filename?: string;
-    configFile?: string;
-    objectArrayName?: string;
-    numberOfObjects?: number;
-}): void
-
-(method) jsonDataGenerator.buildJsonStringFromConfigString({ configString, objectArrayName, numberOfObjects }: {
-    configString?: string;
-    objectArrayName?: string;
-    numberOfObjects?: number;
-}): string
-
-(method) jsonDataGenerator.configObject(): typeof buildConfig
-
-(method) jsonDataGenerator.buildJsonStringFromConfigObject({ configObject, numberOfObjects }: {
-    configObject: any;
-    numberOfObjects: any;
-}): string
-
-(method) jsonDataGenerator.buildJsonStringFromConfigObjectAndWriteToFile({ filename, configObject, objectArrayName, numberOfObjects }: {
-    filename?: string;
-    configObject?: {
-        objectArrayName: any[];
-    };
-    objectArrayName?: string;
-    numberOfObjects?: number;
-}): void
 
 ### Build Config Methods
 
