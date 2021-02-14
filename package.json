@@ -1,6 +1,6 @@
 {
   "name": "json-random-data-generator",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "a json data generator",
   "main": "./dist/json-random-data-generator.js",
   "scripts": {
