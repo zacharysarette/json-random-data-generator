@@ -1,24 +1,10 @@
 const generateObject = require('./generateObject')
-module.exports = class GenerateJsonString {
-  constructor () {
-    this.jsonString = ''
+module.exports = (objectArrayName, numberOfObjects, fields, jsonString = '') => {
+  jsonString += `{\n"${objectArrayName}":[\n`
+  for (numberOfObjects; numberOfObjects > 1; numberOfObjects--) {
+    jsonString = generateObject({ fields, objectString: jsonString })
   }
-
-  start ({ objectArrayName }) {
-    this.jsonString += `{\n"${objectArrayName}":[\n`
-    return this
-  }
-
-  generateAndAddObjects ({ numberOfObjects, fields }) {
-    for (numberOfObjects; numberOfObjects > 1; numberOfObjects--) {
-      this.jsonString = generateObject({ fields, objectString: this.jsonString })
-    }
-    this.jsonString = generateObject({ fields, objectString: this.jsonString, last: true })
-    return this
-  }
-
-  end () {
-    this.jsonString += ']\n}\n'
-    return this.jsonString
-  }
+  jsonString = generateObject({ fields, objectString: jsonString, last: true })
+  jsonString += ']\n}\n'
+  return jsonString
 }

@@ -1,32 +1,8 @@
 const buildConfig = require('./buildConfig')
 const build = require('./build')
-const write = require('./write')
 
 module.exports = {
-  buildJsonStringFromConfigFile: ({
-    configFile = '',
-    objectArrayName = '',
-    numberOfObjects = 0
-  }) =>
-    build({
-      configFile,
-      objectArrayName,
-      numberOfObjects
-    }),
-  buildJsonStringFromConfigFileAndWriteToFile: ({
-    filename = '',
-    configFile = '',
-    objectArrayName = '',
-    numberOfObjects = 0
-  }) =>
-    write({
-      filename,
-      jsonString: this.buildJsonStringFromConfigFile({
-        configFile,
-        objectArrayName,
-        numberOfObjects
-      })
-    }),
+  configObject: buildConfig,
   buildJsonStringFromConfigString: ({
     configString = '',
     objectArrayName = '',
@@ -37,21 +13,6 @@ module.exports = {
       objectArrayName,
       numberOfObjects
     }),
-  buildJsonStringFromConfigStringAndWriteToFile: ({
-    filename = '',
-    configString = '',
-    objectArrayName = '',
-    numberOfObjects = 0
-  }) =>
-    write({
-      filename,
-      jsonString: this.buildJsonStringFromConfigString({
-        configString,
-        objectArrayName,
-        numberOfObjects
-      })
-    }),
-  configObject: buildConfig,
   buildJsonStringFromConfigObject: ({
     configObject,
     objectArrayName = Object.keys(configObject)[0],
@@ -61,19 +22,5 @@ module.exports = {
       configObject,
       objectArrayName,
       numberOfObjects
-    }),
-  buildJsonStringFromConfigObjectAndWriteToFile: ({
-    filename = '',
-    configObject = { objectArrayName: [] },
-    objectArrayName = '',
-    numberOfObjects = 0
-  }) =>
-    write({
-      filename,
-      jsonString: this.buildJsonStringFromConfigObject({
-        configObject,
-        objectArrayName,
-        numberOfObjects
-      })
     })
 }
