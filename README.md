@@ -16,12 +16,18 @@
 
 * [Example Output File](#Example-Output-File)
 
+* [CLI](#CLI)
+
 ---
 ## About
 
 This is little utility made to easily generate mock-up json data for prototyping.
 
 The generator will return a string which can be converted into a json object
+
+There is also a CLI that you can download in a separate package.
+
+See [CLI](#CLI) for more details.
 
 ---
 ## Installation
@@ -172,3 +178,20 @@ import jsonRandomDataGenerator from 'json-random-data-generator'
 ]
 }
 ```
+
+## CLI
+
+If you would like to use the CLI, you can check out the [npm page](https://www.npmjs.com/package/json-random-data-generator-cli) for more details.
+
+### CLI Installation
+
+Locally:
+```
+npm i --save-dev json-random-data-generator-cli
+```
+
+Globally:
+```
+npm install -g json-random-data-generator-cli
+```
+
