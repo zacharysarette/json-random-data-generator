@@ -183,7 +183,7 @@ import jsonRandomDataGenerator from 'json-random-data-generator'
 
 If you would like to use the CLI, you can check out the [npm page](https://www.npmjs.com/package/json-random-data-generator-cli) for more details.
 
-### CLI Installation
+### Installation
 
 Locally:
 ```
